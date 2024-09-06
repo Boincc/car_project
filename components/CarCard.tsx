@@ -4,7 +4,7 @@ import { useState } from 'react'
 import Image from 'next/image';
 import { CarProps } from '@/types';
 import CustomButton from './CustomButton';
-import { calculateCarRent } from '@/utils';
+import { calculateCarRent, generateCarImageUrl } from '@/utils';
 import CarDetails from './CarDetails';
 
 interface CarCardProps {
@@ -35,7 +35,7 @@ const carRent = calculateCarRent(city_mpg, year);
           </span>  
         </p>
         <div className="relative w-full h-40 mt-3 object-contain">
-            <Image src="/hero.png" alt="car model" fill priority className="ob]ect-contain"/>
+            <Image src="/auto2.png" alt="car model" fill priority className="ob]ect-contain"/>
         </div>
 
         <div className="relative flex w-full mt-2">
