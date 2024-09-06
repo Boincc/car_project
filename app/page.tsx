@@ -23,8 +23,8 @@ export default async function Home({ searchParams }) {
       <Hero/>
       <div className="mt-12 padding-x padding-y max-width" id="discover">
         <div className="home__text-container">
-          <h1 className="text-4x1 font-extrabold">Car Catalogue</h1>
-          <p>Explore the cars you might like</p>
+          <h1 className="text-4x1 font-extrabold">Каталог Автомобилей</h1>
+          <p>Выбери автомобиль который тебе понравиться</p>
         </div>
 
         <div className="home_filters">
